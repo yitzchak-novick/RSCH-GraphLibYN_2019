@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="GraphTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VertexTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

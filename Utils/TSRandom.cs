@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FluExp_01
+namespace Utils
 {
     public class TSRandom
     {

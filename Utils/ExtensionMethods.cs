@@ -5,7 +5,7 @@ using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FluExp_01
+namespace Utils
 {
     public static class ExtensionMethods
     {
