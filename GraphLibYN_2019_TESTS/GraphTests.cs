@@ -5,7 +5,7 @@ using System.Text;
 using GraphLibYN_2019;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace GraphLIbYN_2019_TESTS
+namespace GraphLibYN_2019_TESTS
 {
     [TestClass]
     public class GraphTests

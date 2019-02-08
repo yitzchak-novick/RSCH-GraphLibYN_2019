@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using GraphLibYN_2019;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace GraphLIbYN_2019_TESTS
+namespace GraphLibYN_2019_TESTS
 {
     // Most vertex functionality will be tested directly on the graph, but some things
     // are purely functions of the vertex and should be tested here
