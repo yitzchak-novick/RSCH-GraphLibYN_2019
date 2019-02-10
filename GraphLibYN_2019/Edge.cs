@@ -8,5 +8,9 @@ namespace GraphLibYN_2019
 {
     public class Edge
     {
+        public readonly Vertex v1;
+        public readonly Vertex v2;
+        
+
     }
 }

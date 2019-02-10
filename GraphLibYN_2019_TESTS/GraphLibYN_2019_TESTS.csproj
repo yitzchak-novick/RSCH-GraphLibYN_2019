@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Documentation\TestGraphs.docx" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GraphLibYN_2019\GraphLibYN_2019.csproj">

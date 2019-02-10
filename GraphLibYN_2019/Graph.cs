@@ -19,6 +19,8 @@ namespace GraphLibYN_2019
         public IEnumerable<Vertex> AllVertices => null;
 
         public IEnumerable<Vertex> AllPositiveDegreeVertices => null;
+
+        public IEnumerable<Edge> Edges => null;
         #endregion
 
         #region GRAPH_CREATION_METHODS
