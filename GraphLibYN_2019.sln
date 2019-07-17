@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphLibYN_2019_TESTS", "Gr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj", "{C4C5ADAB-38CD-41D5-9793-11EFD09189A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils_TESTS", "Utils_TESTS\Utils_TESTS.csproj", "{54DA900A-D1F3-49FB-8197-A94D21A4055C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDriver", "TestDriver\TestDriver.csproj", "{31B38EC8-5AEE-4EAA-9542-8FEB3F833ACC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{C4C5ADAB-38CD-41D5-9793-11EFD09189A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4C5ADAB-38CD-41D5-9793-11EFD09189A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4C5ADAB-38CD-41D5-9793-11EFD09189A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54DA900A-D1F3-49FB-8197-A94D21A4055C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54DA900A-D1F3-49FB-8197-A94D21A4055C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54DA900A-D1F3-49FB-8197-A94D21A4055C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54DA900A-D1F3-49FB-8197-A94D21A4055C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31B38EC8-5AEE-4EAA-9542-8FEB3F833ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31B38EC8-5AEE-4EAA-9542-8FEB3F833ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31B38EC8-5AEE-4EAA-9542-8FEB3F833ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31B38EC8-5AEE-4EAA-9542-8FEB3F833ACC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
