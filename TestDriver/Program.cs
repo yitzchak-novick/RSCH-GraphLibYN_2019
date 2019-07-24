@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UtilsYN;
 
 namespace TestDriver
 {
@@ -13,7 +14,24 @@ namespace TestDriver
     {
         static void Main(string[] args)
         {
-            SomeBaCreation();
+            AQuickCurveSmoothing();
+        }
+
+        static void AQuickCurveSmoothing()
+        {
+            SortedList<double, double> list = new SortedList<double, double>();
+
+            list.Add(0, 11);
+            list.Add(1, 10);
+            list.Add(2, 9);
+            list.Add(3, 8);
+            list.Add(4, 7);
+            list.Add(5, 4);
+            list.Add(6, 2);
+            list.Add(7, 2);
+            list.Add(8, 1);
+
+            var results = StatisticsMethods.GetCurvedDataPoints(list, 7);
         }
 
         static void SomeBaCreation()

@@ -5,7 +5,7 @@ using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Utils
+namespace UtilsYN
 {
     /*
      * Extension Methods, mostly related to randomization, a few others.

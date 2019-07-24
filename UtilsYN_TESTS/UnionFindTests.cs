@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Security.Policy;
-using System.Text;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Utils;
+using UtilsYN;
 
-namespace Utils_TESTS
+namespace UtilsYN_TESTS
 {
     [TestClass]
     public class UnionFindTests

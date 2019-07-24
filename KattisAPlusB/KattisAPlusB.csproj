@@ -4,16 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{31B38EC8-5AEE-4EAA-9542-8FEB3F833ACC}</ProjectGuid>
+    <ProjectGuid>{01C88839-5A13-470E-8FDB-7811276E5F8F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TestDriver</RootNamespace>
-    <AssemblyName>TestDriver</AssemblyName>
+    <RootNamespace>KattisAPlusB</RootNamespace>
+    <AssemblyName>KattisAPlusB</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>x64</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -47,16 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\GraphLibYN_2019\GraphLibYN_2019.csproj">
-      <Project>{e23e6abc-90d5-4196-932b-6df0b305f9ac}</Project>
-      <Name>GraphLibYN_2019</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\UtilsYN\UtilsYN.csproj">
-      <Project>{c4c5adab-38cd-41d5-9793-11efd09189a4}</Project>
-      <Name>UtilsYN</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
